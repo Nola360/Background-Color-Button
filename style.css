@@ -1,10 +1,12 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   /* places item vertically in center*/
   justify-content: center;
   /* Places items horizontally in the center */
   align-items: center;
+  
 }
 
 .color-btn {
@@ -17,10 +19,36 @@ body {
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .color-btn:hover {
-  /* background: rgba(0,0,150, .8); */
+  color: black;
+  border: 3px solid black
+}
+
+
+
+/* Hex Project */
+
+.hexColor {
+  font-family: "futura";
+  /* color: silver; */
+}
+
+.hexButton {
+  padding: 1rem 1.5rem;
+  border: 3px solid black;
+  border-radius: 7px;
+  background: rgb(0, 225, 255);
+  font-size: 1rem;
+  font-family: "futura";
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.hexButton:hover {
   color: black;
   border: 3px solid black
 }
