@@ -4,7 +4,7 @@ const colorButton = document.querySelector('.color-btn');
 const bodyBackground = document.querySelector('body');
 
 //Create an Arry to hold background colors to use
-const colors = ['yellow', 'red', 'green', 'blue'];
+const colors = ['yellow', 'red', 'green', 'blue', 'orange', 'pink'];
 
 //Button event lister
 colorButton.addEventListener('click', changeColor);
